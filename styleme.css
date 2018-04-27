@@ -1,0 +1,329 @@
+body {
+  background-image: url(http://www.williamdavidsonlaw.com/BookBackground.jpg);
+  background-color: black;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  float: left;
+  border-radius: 10px;
+}
+
+header img {
+  width:100%;
+}
+
+header {
+  width:40%;
+  margin-left: 8%;
+  margin-top: 10px;
+  position: fixed;
+}
+
+footer {
+  position: fixed;
+  width: 40%;
+  bottom:0;
+  margin-left: 8%;
+  margin-bottom: 10px;
+  float: left;
+}
+footer img {
+  margin-top: 5px;
+}
+
+section {
+  float: right;
+  width: 40%;
+  height: 90%;
+  margin-right: 5%;
+  margin-top: 25px;
+  padding: 5px;
+  position: fixed;
+  right: 0;
+  overflow-y: scroll;
+}
+
+h1 {
+  font-family:'Comic Sans MS', sans-serif;
+  color: #6098f2;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Lucida Console", monospace;
+  color: #6098f2;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Lucida Console", monospace;
+  color: #707070;
+}
+
+label {
+  font-family: "Lucida Console", monospace;
+  color: gold;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+h2::first-letter {
+  font-size: 200%;
+}
+
+blockquote::before, blockquote::after {
+  content: '"';
+}
+
+a:link {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: darkgrey;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+a:active {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+button {
+  padding: 10px;
+  background-color: lightblue;
+  font-family: "Arial Black", sans-serif;
+  min-width: 100px;
+  width: 100%;
+  border-color: darkgrey;
+  border-radius: 10px;
+}
+
+nav {
+  text-align: center;
+}
+
+ul {
+  list-style-type: circle;
+  margin: 0px 75px;
+}
+caption {
+  font-size: 24px;
+  font-family:'Comic Sans MS', sans-serif;
+}
+
+aside {
+  float:left;
+  width:20%;
+  height: 90%;
+  background-color: gold;
+  color: maroon;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+form {
+  visibility: hidden;
+}
+
+fieldset {
+  border-width: 0px;
+}
+
+.changingPic {
+  text-align: center;
+}
+
+.self {
+  background-image: linear-gradient(to bottom left,  transparent calc(50% - 1px), burlywood, transparent calc(50% + 1px));
+}
+
+.x_out_cell {
+  background-image: linear-gradient(to bottom left,  transparent calc(50% - 1px), brown, transparent calc(50% + 1px));
+}
+
+.code_indent {
+  margin: 0px 25px;
+}
+
+.dropbtn {
+  min-width: 100px;
+  width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  min-width: 100px;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  width: 100%;
+  z-index: 1;
+  margin: 0px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 30px 0px rgba(255,179,179, 0.8);
+}
+
+.dropdown-content a {
+  background-color: lightblue;
+  padding: 12px 16px;
+  color: maroon;
+  display: block;
+  border-style: solid;
+  border-color: darkgrey;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.dropdown-content a:hover, .dropdown-content:hover .dropbtn, button:hover {
+  background-color: gold;
+}
+
+.quiz_topic {
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  color: maroon;
+  padding: 10px;
+  font-family: "Arial Black", sans-serif;
+  min-width: 100px;
+  width: 10%;
+  border-radius: 10px;
+  margin: 0px;
+  margin-left: 5%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.current_page {
+  background-color: gold;
+}
+
+.verified {
+  height: 20px;
+}
+
+#ourHouse {
+  display: none;
+}
+
+#t1 {
+  border: 2px solid gold;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;
+}
+#t1 th {
+  background-color: darkolivegreen;
+  color: gold;
+  border-bottom: 1px solid gold;
+  border-right: 1px solid gold;
+}
+#t1 td{
+  border: 1px solid gold;
+}
+
+#t1 tr:nth-child(even) {
+  background-color: rgba(92, 122, 31, 0.4);
+}
+
+#t2 {
+  width: 50%;
+  margin: auto;
+  margin-top: 60px;
+  border-collapse: collapse;
+}
+#t2 th {
+  border-bottom: 2px solid white;
+}
+
+#t2 td {
+  border-bottom: 1px dashed white;
+}
+
+#t2 tr:last-child td {
+  border-style: none;
+}
+
+#t2 caption {
+  padding-bottom: 10px;
+}
+
+#t3 {
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid brown;
+  border-collapse: collapse;
+}
+
+#t3 td {
+  width: 90px;
+  height: 30px;
+  border: 1px solid burlywood;
+  text-align: center;
+}
+
+#t3 th {
+  background-color: burlywood;
+  color: brown;
+}
+
+#t3 tfoot {
+  background-color: darkolivegreen;
+  color: gold;
+  text-align: center;
+}
+
+#quiz {
+  height: 550px;
+}
+
+#question_box, #answer_box {
+  background-color: maroon;
+  border-radius: 10px;
+  height: 100px;
+  width: 60%;
+  margin-left: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#quiz_btn:hover {
+  background-color: gold;
+  color: maroon;
+}
+
+#finished_game {
+  position: absolute;
+  width: 80%;
+  background: blue;
+  z-index: 1;
+  margin: 50px 10% 0px 10%;
+  border-radius: 200px;
+
+  color: gold;
+  text-align: center;
+  padding: 40px;
+  font-size: 50px;
+  font-weight: bold;
+  display: none;
+}
