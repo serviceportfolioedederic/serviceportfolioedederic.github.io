@@ -17,10 +17,11 @@
     <h1>Service Learning</h1><h1>Final Reflection Portfolio</h1>
     <hr />
     <nav>
-      <button class="current_page">Introduction</button>
-      <button>About Reading Partners</button>
-      <button>How I Got To Help</button>
-      <button>Definitions of Poverty and Privilege</button>
+      <button class="current_page" id="intro_button" onclick="showIntro()">Introduction</button>
+      <button id="rp_button" onclick="showRP()">About Reading Partners</button>
+      <button id="helped_button" onclick="showHelped()">How I Got To Help</button>
+      <button id="define_button" onclick="showDefine()">Definitions of Poverty and Privilege</button>
+      <button id="growth_button" onclick="showGrowth()">Personal Growth</button>
       <!--<div class="dropdown">
         <button class="dropbtn">CSS Tutorials</button>
         <div class="dropdown-content">
@@ -37,11 +38,10 @@
           <a href="../javascript/jskeyboard.html">Keyboard</a>
         </div>
       </div>-->
-      <button>Personal Growth</button>
     </nav>
   </header>
 
-  <section id="intro">
+  <section id="intro" class="shown">
     <h2>Introduction</h2>
     <h3>The Class</h3>
     <!--p>While registering for classes for the Spring 2018 semester, I noticed a
@@ -50,12 +50,24 @@
 
     <h3>The Project</h3>
 
-    <h3>The _____</h3>
+    <!--h3>The _____</h3-->
   </section>
 
-  <!--section id="about_rp">
-    <p>Testing section 2</p>
-  </section-->
+  <section id="about_rp">
+    <p>Testing About Reading Partners section</p>
+  </section>
+
+  <section id="how_helped">
+    <p>Testing How I Got to Help section</p>
+  </section>
+
+  <section id="poverty_privilege">
+    <p>Testing Poverty and Privilege section</p>
+  </section>
+
+  <section id="growth">
+    <p>Testing Personal Growth section</p>
+  </section>
 
   <footer>
     <hr />
