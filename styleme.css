@@ -34,6 +34,7 @@ section {
   position: fixed;
   right: 0;
   overflow-y: scroll;
+  visibility: hidden;
 }
 
 h1 {
@@ -58,12 +59,12 @@ h2::first-letter {
 }
 
 a:link {
-  color: black;
+  color: brown;
   text-decoration: underline;
 }
 
 a:visited {
-  color: darkgrey;
+  color: brown;
 }
 
 a:hover {
@@ -72,7 +73,7 @@ a:hover {
 }
 
 a:active {
-  color: darkgrey;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -147,8 +148,4 @@ fieldset {
 
 .shown {
   visibility: visible;
-}
-
-section {
-  visibility: hidden;
 }
