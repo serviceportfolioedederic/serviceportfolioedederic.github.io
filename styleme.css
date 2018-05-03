@@ -20,8 +20,13 @@ footer {
   margin-bottom: 10px;
   float: left;
 }
+
 footer img {
   margin-top: 5px;
+}
+
+section img {
+  width: 98%;
 }
 
 section {
@@ -148,4 +153,11 @@ fieldset {
 
 .shown {
   visibility: visible;
+}
+
+#rpLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
